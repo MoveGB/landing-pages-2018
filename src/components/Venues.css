@@ -1,0 +1,110 @@
+.Chooser .Venues {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom:0;
+  background: rgba(12, 40, 67, .5);
+  z-index: 80;
+}
+.Venues .inner {
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+  overflow: auto;
+  background: #fff;
+}
+.Venues .VenueSearch {
+  position: fixed;
+    height: 9rem;
+    background: white;
+}
+.Venues .Space {
+    height: 9rem;
+}
+.Venues .SearchBox {
+    position: fixed;
+    background: white;
+    padding-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+}
+.Venues .close {
+   margin: 1rem;
+    float: left;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 1.4rem;
+    color: #fff;
+    text-align: left;
+}
+.Venues .close svg {
+  height: 40px;
+  width: 40px
+}
+.Venues h2, .Venues .menu {
+  width: 90%;
+  margin: 0 auto;
+}
+.Venues h2 {
+      color: #8D8CA1;
+    clear: both;
+    margin: 1.5em auto 1em;
+    font-size: .875em;
+}
+.Venues .menu a {
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: underline;
+  width: 50%;
+  text-align: left;
+  cursor: pointer;
+}
+.Venues .menu a:last-child {
+  text-align: right;
+}
+.Venues #venue-map {
+  height: 100%;
+  background: grey;
+}
+.Chooser .SearchBox .search {
+  border-radius: 3px;
+  border: 1px solid #1B1A43;
+  padding: .6em .6em .6em 50px;
+  width: 100%;
+  max-width: 350px;
+  background: #fff url(../img/search.svg) no-repeat 1em center;
+  background-size: 1rem;
+  font-weight: bold;
+  height: 50px;
+}
+.Chooser .VenueList {
+  background: #FFF;
+    text-align: left;
+}
+.VenueList ul {
+  list-style: none;
+    padding: 4rem 0rem 6rem 0rem;
+}
+.VenueList ul li {
+  background: #FFF;
+  margin: 10px;
+  text-align: left;
+}
+.VenueList ul li a {
+  display: block;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    line-height: 15px;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

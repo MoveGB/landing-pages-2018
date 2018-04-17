@@ -1,0 +1,52 @@
+.Chooser .LocalityChoice {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom:0;
+  background: rgba(12, 40, 67, .5);
+  z-index: 100;
+}
+.LocalityChoice .inner {
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+  overflow: auto;
+  background: #fff;
+}
+.LocalityChoice .close {
+  width: 90%;
+  margin: 1em auto;
+  text-align: right;
+  display: block;
+  font-weight: bold;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.LocalityChoice .close svg {
+  height: 30px;
+  width: 30px
+}
+.LocalityChoice input {
+  width: 90%;
+}
+.LocalityChoice ul {
+  width: 90%;
+  text-align: left;
+  list-style: none;
+  margin: 1em 1.5em;
+}
+.LocalityChoice ul li button, .LocalityChoice ul li a {
+  display: block;
+  padding: 0.6em 0;
+  font-size: 1.3em;
+  background: #fff;
+  border: 0;
+  text-align: left;
+  font-weight: bold;
+  width: 100%;
+}

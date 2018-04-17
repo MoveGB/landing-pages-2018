@@ -1,0 +1,183 @@
+@font-face {
+  font-family: 'Panton';
+  src: url('../fonts/panton-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Panton';
+  src: url('../fonts/panton-bold.woff') format('woff');
+  font-weight: bold;
+}
+
+.Chooser {
+  font-size: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-family: 'Panton', sans-serif;
+  color: #1c1a42;
+}
+.Chooser *,
+.Chooser *::before,
+.Chooser *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.Chooser .Question {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.Chooser header {
+  background-image: url(../img/abstract_background.jpg);
+  background-size: cover;
+  margin-bottom: 4rem;
+}
+.Chooser .Question header h1 {
+  position: relative;
+}
+.Chooser .Question header h1:after {
+  background: url(../img/homepage_image1.png) no-repeat center 20%;
+  background-size: cover;
+  content: '';
+  position: absolute;
+  animation: headerAnimation 15s infinite;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+@keyframes headerAnimation {
+  0% {
+    background: url(../img/homepage_image1.png) no-repeat center 20%;
+    background-size: cover;
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  35% {
+    background: url(../img/homepage_image1.png) no-repeat center 20%;
+    background-size: cover;
+    opacity: 0;
+  }
+  36% {
+    background: url(../img/homepage_image2.png) no-repeat center 20%;
+    background-size: cover;
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  65% {
+    background: url(../img/homepage_image2.png) no-repeat center 20%;
+    background-size: cover;
+    opacity: 0;
+  }
+  66% {
+    background: url(../img/homepage_image3.png) no-repeat center 20%;
+    background-size: cover;
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    background: url(../img/homepage_image3.png) no-repeat center 20%;
+    background-size: cover;
+    opacity: 0;
+  }
+}
+.Chooser .Question header h1 img {
+  position: relative;
+  width: 80%;
+  max-width: 300px;
+  margin: 160px 0 -30px;
+  z-index: 10;
+}
+.Chooser .Question h1 {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin: 1rem;
+  letter-spacing: 0rem;
+}
+
+.Chooser .Question h2 {
+    color: #173c6c;
+    margin: 1em auto 1rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+
+.Chooser .Question a {
+  cursor: pointer;
+}
+.Chooser .Question a span, .Chooser .Question a.Locality {
+  white-space: nowrap;
+}
+.Chooser .Question a span strong, .Chooser .Question a.Locality strong {
+  border-bottom: 2px dotted;
+  color: #00D9ED;
+}
+.Chooser .Question a span:before {
+  content: '+ ';
+  color: inherit;
+  border-bottom: 0;
+  color: #1c1a42;
+}
+.Chooser .Question a span:first-child:before {
+  content: '';
+  color: inherit;
+}
+.Chooser .Question a span:after {
+  content: ' ';
+  color: inherit;
+  border-bottom: 0;
+}
+
+.Chooser .Yoga, .Chooser .Mind.Body, .Chooser .Dance, .Chooser .Fitness, .Chooser .Yoga .fa, .Chooser .Mind.Body .fa, .Chooser .Dance .fa, .Chooser .Fitness .fa {
+  color: #7A12FE !important;
+}
+.Chooser .Cycling, .Chooser .Martial.Arts, .Chooser .Racquet.Sports, .Chooser .Cycling .fa, .Chooser .Martial.Arts .fa, .Chooser .Racquet.Sports .fa {
+  color: #FF0062 !important;
+}
+.Chooser .Crossfit, .Chooser .Strength, .Chooser .Gym, .Chooser .Crossfit .fa, .Chooser .Strength .fa, .Chooser .Gym .fa {
+  color: #230260 !important;
+}
+.Chooser .Climbing, .Chooser .Climbing .fa, .Chooser .Gymnastics, .Chooser .Gymnastics .fa {
+  color: #FF7400 !important;
+}
+.Chooser .Swimming, .Chooser .Swimming .fa, .Chooser .Water.Sports, .Chooser .Water.Sports .fa {
+  color: #3FA9F5 !important;
+}
+.Chooser .search {
+  border-radius: 3px;
+  border: 1px solid #1B1A43;
+  padding: .6em .6em .6em 50px;
+  width: 90%;
+  max-width: 350px;
+  background: #fff url(../img/search.svg) no-repeat 1em center;
+  background-size: 1rem;
+  font-weight: bold;
+  height: 50px;
+}
+.Chooser .content h1, .Chooser .content h2, .Chooser .content p {
+  margin-bottom: 1rem;
+}
+.Chooser .content {
+  margin-bottom: 2rem;
+}

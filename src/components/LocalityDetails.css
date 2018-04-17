@@ -1,0 +1,294 @@
+.Chooser .LocalityDetails {
+  margin-bottom: 3rem;
+}
+.LocalityDetails > h2, .LocalityDetails .menu {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.LocalityDetails > h2 {
+      color: #acbbce;
+    margin: 1.5em auto 1rem;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+}
+.LocalityDetails .menu {
+      padding: 0.5rem 0 .375rem;
+}
+.LocalityDetails .menu a {
+  font-size: .875rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0rem 1rem 0.2rem 1rem;
+  color: #8D8CA1;
+}
+.LocalityDetails .menu a.selected {
+  color: #302F60;
+  border-bottom: 2px solid;
+}
+.LocalityDetails .venuesLink {
+    display: inline-block;
+    color: #acbbce;
+    padding: 0.8rem 3rem;
+    font-size: 0.9rem;
+    border-radius: .3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.06rem;
+    cursor: pointer;
+    border: 2px solid #d3ddeb;
+}
+.LocalityDetails > .cta {
+  display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.25rem;
+    display: block;
+    padding: 1rem;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 90;
+    white-space: nowrap;
+    cursor: pointer;
+    background: url("../img/abstract_bg_dark.png");
+}
+.LocalityDetails > .cta div {
+      background: #00D9ED;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.1rem;
+    border-radius: .3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.06rem;
+    cursor: pointer;
+    color: #fff;
+    width: 100%;
+}
+
+.Chooser .Featured {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 5%;
+  max-width: 1000px;
+  margin: 0 auto 1rem;
+}
+.Featured .item {
+  width: 20rem;
+  display: inline-block;
+  flex: 0 0 auto;
+  padding-right: 10px;
+  text-align: left;
+  position: relative;
+}
+.Featured .item .images {
+  position: relative;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    width: 100%;
+    height: 13rem;
+    margin-bottom: .6rem;
+}
+.Featured .item h1 {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    padding: .3rem .4rem;
+    letter-spacing: .02rem;
+    margin: 0;
+}
+.Featured .item h2 {
+    font-size: .8rem;
+    letter-spacing: 0.02rem;
+    padding: 0.4rem;
+    margin: 0;
+    font-weight: 400;
+}
+.Featured .item div.ratingStars {
+    padding: 0em 0.4rem;
+    letter-spacing: 0rem;
+}
+
+.Featured .item .images .image {
+  display: block;
+    width: 100%;
+  min-height: 13rem;
+}
+.Featured .item .images .logoBox {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  padding: 0.4rem;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Featured .item .images .logoBox img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+.Featured .item .typeIcon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20%;
+  height: 20%;
+}
+.Featured .item .ratingStar {
+  width: 0.8rem;
+  height: 0.8rem;
+    margin-right: 1%;
+}
+
+
+.Chooser .ViewPartner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 3rem;
+  max-width: 100%;
+  background: rgba(27, 26, 67, 0.8);
+  overflow: auto;
+  z-index: 80;
+}
+.ViewPartner .close, .ViewPartner .inner {
+  width: 100%;
+  max-width: 400px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.ViewPartner .close {
+  top: 1rem;
+    left: 1rem;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 1.4rem;
+    color: #fff;
+    text-align: left;
+    position: fixed;
+}
+.ViewPartner .close svg {
+  height: 40px;
+  width: 40px
+}
+.ViewPartner .inner {
+  background: #fff;
+  overflow: hidden;
+  text-align: left;
+}
+.ViewPartner h1 {
+  font-size: 1.375rem;
+    letter-spacing: 0rem;
+}
+.ViewPartner .images {
+  position: relative;
+  overflow: hidden;
+    height: 14rem;
+  width: 100%;
+}
+.ViewPartner .details {
+  padding: 1.5rem;
+  line-height: 1.25;
+}
+.ViewPartner .details address {
+  float: left;
+    display: block;
+    width: 100%;
+    padding: 0.5em 0rem;
+}
+.ViewPartner .details .ratingStars {
+  margin-bottom: 1rem;
+}
+.ViewPartner .details p {
+  font-size: .875rem;
+    line-height: 1.5rem;
+    letter-spacing: 0rem;
+}
+.ViewPartner .images .image {
+    display: block;
+    min-height: 14rem;
+    width: 100%;
+}
+.ViewPartner .images .logoBox {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  padding:0.4rem;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ViewPartner .images .logoBox img {
+  display: block;
+    max-width: 90px;
+  max-height: 100%;
+}
+.ViewPartner .ratingStar {
+  width: 1rem;
+  height: 1rem;
+    margin-right: 1%;
+}
+.ViewPartner .review {
+  margin: 1em 0;
+    display: block;
+    clear: both
+}
+.ViewPartner .review .avatar {
+  width: 30px;
+  height: 30px;
+    border-radius: 50%;
+  float: left;
+  margin: 10px;
+  background: #cccccc url(../img/avatar.jpg) no-repeat;
+  background-size: contain;
+}
+
+
+.Chooser .Passports {
+  display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 5%;
+    max-width: 1000px;
+    margin: 0 auto 1rem;
+}
+.review .content {
+    float:right;
+    width: 80%;
+}
+.review .content h3 {
+    font-size: 0.8rem;
+    padding-bottom: 0.5em
+}
+.review .content .ratingStars {
+
+    margin-bottom: 0rem;
+}
+.review .content .ratingStar {
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-bottom: 0rem;
+    margin-right: 1%;
+}
+

@@ -1,0 +1,16 @@
+.App .isvg {
+  display: none;
+}
+.App .content {
+  display: block;
+}
+
+.App button, .App button:hover, .App button:focus, .App button:active, .App button:active:focus {
+  position: initial;
+  color: inherit;
+  border: 0;
+  outline: none !important;
+  outline: 0;
+  box-shadow: none;
+  height: auto;
+}

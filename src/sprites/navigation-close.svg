@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="30px" height="30px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<title>Navigation - Close</title>
+<desc>Created with Sketch.</desc>
+<circle opacity="0.75" fill="#FFFFFF" enable-background="new    " cx="15" cy="15" r="15"/>
+<g id="Feature">
+	<g id="Overlay-Activity" transform="translate(-337.000000, -20.000000)">
+		<g id="Navigation---Close" transform="translate(332.000000, 15.000000)">
+			<path id="Close" fill="#1B1A43" stroke="#1B1A43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="
+				M20.764,19.5l4.84-4.841l-1.264-1.263l-4.841,4.841l-4.841-4.841l-1.262,1.263l4.84,4.841l-4.84,4.841l1.262,1.263l4.841-4.84
+				l4.842,4.84l1.263-1.263L20.764,19.5z"/>
+		</g>
+	</g>
+</g>
+</svg>
